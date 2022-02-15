@@ -32,7 +32,8 @@ The main contract file is **FlashloanV2.sol** which executes a swap from quick t
 The **deployment_v2.py** is the file that will deploy the contract. However, the main execution file is **run_flash_loan_v2.py** which will call the flashloan() function within the smart contract.
 
 If you wish to run this bot, you will need to fork the repo, then add a ".env" file with your private key and an Infura API that can call the Polygon Mainnet chain.
-Once that is set up, you must deploy the contract with deployment_v2.py, fund the contract with the token you will be transacting, as Aave takes a fee and your transaction will lose money, and lastly run the run_flash_loan_v2.py. You can see the potential profit (or loss) printed each second in the console. However, this bot is NOT profitable, so I suggest to only fund it with a minuscule amount.
+
+Once that is set up, you must deploy the contract with deployment_v2.py, fund the contract with the token you will be transacting, as Aave takes a fee and your transaction will lose money, and lastly run the run_flash_loan_v2.py. 
 
 ## Next steps
 
